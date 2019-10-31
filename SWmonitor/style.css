@@ -1,0 +1,82 @@
+
+body {
+	width: 70%; 
+	margin: auto;
+}
+
+a:link {
+  color: grey;
+}
+
+a:visited {
+  color: grey;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: teal;
+}
+
+#navigation {
+  
+}
+
+p {
+  font-size: 120%;
+  color: dimgray;
+}
+
+#contents {
+	float: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  font-family: sans-serif;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 22px
+}
+
+/* Change the link color to grey on hover */
+li a:hover {
+  background-color: #ccc;
+}
+
+hr {
+height: 2px;
+margin-left: auto;
+margin-right: auto;
+background-color:#46638B;
+}
+
+
+body.solar a.solar:link,
+body.solar a.solar:visited,
+body.heliospheric a.heliospheric:link,
+body.heliospheric a.heliospheric:visited,
+body.atmospheric a.atmospheric:link,
+body.atmospheric a.atmospheric:visited,
+body.geomagnetic a.geomagnetic:link,
+body.geomagnetic a.geomagnetic:visited {
+  color: #FFFFFF;
+  background-color: #46638B;
+  font-weight:bold
+}
