@@ -1,5 +1,20 @@
-<?php echo file_get_contents("html/atmospheric/atm_header.html"); ?>
-<?php echo file_get_contents("html/atmospheric/atm_body.html"); ?>
-<?php echo file_get_contents("footer.html"); ?>
-<p>Intellectual Property of the Dublin Institute for Advanced Studies</p> 
-<p>Created by Tadhg Garton, Philippe Grange & John Malone-Leigh, 2019.</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="description" contents="Local page for Irish Space Weather Monitoring">
+        <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+
+<body class="atmospheric">
+<center>
+
+<?php include("html/atmospheric/atm_header.html"); ?>
+<?php include("html/atmospheric/atm_body.html"); ?>
+<?php include("footer.html"); ?>
+
+</center>
+</body>
+</html>
